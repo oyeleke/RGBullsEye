@@ -46,7 +46,7 @@ struct ContentView: View {
             }
             
             Button(action: {
-                self.showAlert = false
+                self.showAlert = true
             }) {
                 Text("Hit me button")
             }.alert(isPresented: $showAlert) { () -> Alert in
